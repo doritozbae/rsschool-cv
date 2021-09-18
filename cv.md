@@ -20,6 +20,9 @@ hardworking, communicative and responsible.
 **13-week Digital Design Course**  
 [CIDR Design](https://www.cidr.design/) - Minsk, Belarus *(Nov 2020 - Feb 2021)*
 
+**JS/FE Pre-School**  
+[RS School](https://rs.school/) - *(Jul 2021 - Sep 2021)*
+
 ## Languages 
 **Russian**: Native   
 **English**: B2
