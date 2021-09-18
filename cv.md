@@ -23,6 +23,9 @@ hardworking, communicative and responsible.
 **JS/FE Pre-School**  
 [RS School](https://rs.school/) - *(Jul 2021 - Sep 2021)*
 
+**JS / FRONT-END**  
+[RS School](https://rs.school/) - *(Sep 2021 - Now)*
+
 ## Languages 
 **Russian**: Native   
 **English**: B2
