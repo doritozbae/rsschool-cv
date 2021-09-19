@@ -12,8 +12,9 @@
    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
 
    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
-   <script src="js/highlight.min.js"></script>
-    <script>hljs.highlightAll()</script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+   <script> hljs.initHighlightingOnLoad(); </script>
+
 </head>
 
 <body>
@@ -59,12 +60,15 @@
    
       <div class="first_section_container">
          <div class="photo_section">
+            <figure>
+
+            </figure>
 
          </div>
          <div class="about_me_main"> 
-         <h2> Hello,</h2>
-         <h2> I'm Alice Korshakova!</h2>
-         <h5 class="typetext"> </h5>
+         <h1> Hello,</h2>
+         <h6> I'm Alice Korshakova!</h2>
+         <h5 class="typetext">  </h5>
          <!-- <div class="background_text"></div>  -->
       </div>
       <div class="main_info">
@@ -273,30 +277,23 @@
       </div>
       </div>
 
-      <div class="code_section">
+      <!-- <div class="code_section">
          <h3><b>Code example:</b></h3>
-         <!-- <pre><code class="language-html">
-            .portfolio_section{
-               display: flex;
-               flex-flow: column;
-               padding-top: 45px;
-               justify-content: space-between;
-            }
-
-
-         </code></pre> -->
-         <pre class="text code-example__text">
+         <pre>
             <code class="javascript">
-function yack(fn, ...args) {
-if (args.length >= fn.length) {
-return fn(...args);
-}
-return function (...x) {
-return yack(fn, ...args);
-}
-</code>
+               function createPhoneNumber(numbers){
+                  let format = "(xxx) xxx-xxxx";
+                  
+                  for (let i = 0; i < numbers.length; i++) 
+                  {
+                    format = format.replace('x',numbers[i]);
+                
+                  }
+                  return format;
+                }
+         </code>
         </pre>
-      </div>
+      </div> -->
       </div>
    </section>
 
@@ -371,10 +368,10 @@ return yack(fn, ...args);
       <ul class="footer_list">
          <li class="footer_list_li">
              <a href="https://rs.school/js/">
-                 <img width="100" height="40" src="images/rs_school_js.svg" alt="rs.school"> 
+                 <img class ="footer_logo" width="100" height="40" src="images/rs_school_js.svg" alt="rs.school"> 
              </a>
          </li>              
-         <li class="contact-item contact-item" style="padding-top: 20px;">
+         <li class="contact-item" style="padding-top: 20px;">
              <a class="footer-item contact-item" href="https://github.com/doritozbae">
                  <img width="15" height="15" src="images/github-11-48.png" alt="github"> 
                  doritozbae
@@ -390,9 +387,5 @@ return yack(fn, ...args);
  
  
 	<script src="app.js"></script>
-   <!-- <script src="js/rainbow.min.js"></script>
-   <script src="js/language/generic.js"></script>
-   <script src="js/language/python.js"></script> -->
-
 </body>
 </html> 
