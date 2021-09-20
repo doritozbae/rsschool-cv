@@ -120,6 +120,9 @@ justify-content: space-between;
    font-weight: 400; 
 }
 
+iframe{
+   border: 0; 
+}
 
 
 
