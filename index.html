@@ -51,7 +51,7 @@
   </header> 
 
   <div class="container">
-   <section class="first_section jk" id="about_me"> 
+   <section class="first_section" id="about_me"> 
       <!-- <div class="first_section_bg">
          <h1>ALICE</h1>
          <h6>KORSHAKOVA</h6>
@@ -59,14 +59,13 @@
       <div class="first_section_container">
          <div class="photo_section">
             <figure>
-
-
+               <img class="imgprof" src="images/prof.jpg" alt="profile_pic"> 
             </figure>
          </div>
          <div class="about_me_main"> 
-         <h1> Hello,</h2>
-         <h6> I'm Alice Korshakova!</h2>
-         <h5 class="typetext">  </h5>
+         <h1> Hello,</h1>
+         <h6> I'm Alice Korshakova!</h6>
+         <h5 class="typetext"> I'm </h5>
          <!-- <div class="background_text"></div>  -->
       </div>
       <div class="main_info">
@@ -75,7 +74,7 @@
       <div class="main_buttons">
          <div class="button-di">
          <div class="btn_style">
-         <a class="button" href="#skills"><p><b>  Watch my CV</b></a>
+         <a class="btn-text" href="#skills">Watch my CV</a>
          </div></div>
    
 
@@ -233,90 +232,40 @@
    
    <section class="mini_section" id="portfolio"> 
       <h2>Portfolio</h2>
-      <!-- <div class="portfolio_section">
-         <div class="portfolio_section_first">
-         <div class="project">
-            <a class="project_item"  href="https://rolling-scopes-school.github.io/doritozbae-JSFEPRESCHOOL/museum/">
-               <img src="images/pro2.jpg" width="325" 
-               height="240" alt="pic1">
-            </a>
-               <div class="description">
-                  <p class="header_project">Louvre Website Layout</p>
-                  <p class="description_text">This project is my first experience with html/css layout.</p>
-               </div>
-            </a>
-         </div>
-         <div class="project">
-            <div>
-             <a class="project_item" href="https://rolling-scopes-school.github.io/doritozbae-JSFEPRESCHOOL/vertical-slider/"><img src="images/pro1.jpg" width="325" 
-               height="240" alt="pic1"> </a>
-               <div class="description">
-                  <p class="header_project">Vertical Slider</p>
-                  <p class="description_text">The main aim of this project was to practise with DOM. Supported with hotkeys and mouse scrolling.</p>
-               </div> 
-         </div>
-         </div>
-        </div>
-      <div class="portfolio_section_second">
-          
-         <div class="project">
-            <a class="project_item" href="https://nervous-mestorf-a977cf.netlify.app/"> <img class="pi" src="images/pro3.jpg" width="325" 
-               height="240" alt="pic1"> 
-               <div class="description">
-               <p class="header_project">Custom Video Player</p>
-               <p class="description_text">The task was to make a custom video player with hotkeys and mini video-library. The list of supported hotkeys the same as on YouTube.</p>
-               </div>
-            </a>
-         </div>
-         
-         <div class="project">
-            <a class="project_item" href=""><img src="" width="325" 
-               height="240" alt="pic1"></a> 
-               <div class="description">
-                  <p class="header_project">Adaptive CV</p>
-                  <p class="description_text">This project you are watching right now. Adaptive web-page with basic JS code.</p>
-         </div>
-      </div>
-      </div> -->
-
-      <!-- <div class="code_section">
-         <h3><b>Code example:</b></h3>
-         <pre>
-            <code class="javascript">
-               function createPhoneNumber(numbers){
-                  let format = "(xxx) xxx-xxxx";
-                  
-                  for (let i = 0; i < numbers.length; i++) 
-                  {
-                    format = format.replace('x',numbers[i]);
-                
-                  }
-                  return format;
-                }
-         </code>
-        </pre>
-      </div> 
-      </div> -->
-
+   
       <div class="portfolio_section">
          <div class="portfolio_section_first">
              <div class="new_project">
                 <div class="project">
-                  <a class="project_item"  href="https://rolling-scopes-school.github.io/doritozbae-JSFEPRESCHOOL/museum/">
+                  <a class="project_item"  href="https://rolling-scopes-school.github.io/doritozbae-JSFEPRESCHOOL/museum/"  target="_blank">
                      <img src="images/pro2.jpg" width="325" 
                      height="240" alt="pic1">
-                  </a>
-                              
+                  </a> 
                 </div>
-                <p>name</p>   
+                <a class="animation_project" href="https://rolling-scopes-school.github.io/doritozbae-JSFEPRESCHOOL/museum/"  target="_blank">
+                  <h3 class="portfolio_text">Louvre Layout </h3> 
+                 </a> 
+                <div class="description_">
+                  <p class="portfolio_description">HTML</p>
+                  <p class="portfolio_description">CSS</p>
+               </div>
               </div>
+
              <div class="new_project">
                  <div class="project">
-                  <a class="project_item" href="https://rolling-scopes-school.github.io/doritozbae-JSFEPRESCHOOL/vertical-slider/"><img src="images/pro1.jpg" width="325" 
-                     height="240" alt="pic1"> </a>
-                              
+                  <a class="project_item" href="https://rolling-scopes-school.github.io/doritozbae-JSFEPRESCHOOL/vertical-slider/"  target="_blank"><img src="images/pro1.jpg" width="325" 
+                     height="240" alt="pic1">
+                      
+                  </a>  
                  </div>
-                 <p>name</p>   
+                 <a class="animation_project" href="https://rolling-scopes-school.github.io/doritozbae-JSFEPRESCHOOL/vertical-slider/"  target="_blank">
+                  <h3 class="portfolio_text"> Vertical Slider </h3>  
+                 </a> 
+                 <div class="description_">
+                  <p class="portfolio_description">HTML</p>
+                  <p class="portfolio_description">CSS</p>
+                  <p class="portfolio_description">JavaScript</p>
+               </div>
               </div>
           </div>
 
@@ -324,21 +273,34 @@
 
                <div class="new_project">
                   <div class="project">
-                     <a class="project_item" href="https://nervous-mestorf-a977cf.netlify.app/"> <img class="pi" src="images/pro3.jpg" width="325" 
-                        height="240" alt="pic1">  </a>
-                                 
+                     <a class="project_item" href="https://nervous-mestorf-a977cf.netlify.app/"  target="_blank"> <img class="pi" src="images/pro3.jpg" width="325" 
+                        height="240" alt="pic1">  </a>       
                   </div>
-                  <p>name</p>   
+                  <a class="animation_project" href="https://nervous-mestorf-a977cf.netlify.app/"  target="_blank">
+                     <h3 class="portfolio_text">Custom Video Player </h3>   
+                    </a> 
+                  <div class="description_">
+                     <p class="portfolio_description">HTML</p>
+                     <p class="portfolio_description">CSS</p>
+                     <p class="portfolio_description">JavaScript</p>
+                  </div>
+                  
                </div>
             
             
                <div class="new_project">
                   <div class="project">
-                     <a class="project_item" href=""><img src="" width="325" 
+                     <a class="project_item" href="https://doritozbae.github.io/rsschool-cv/"  target="_blank"><img src="images/pro4.jpg" width="325" 
                         height="240" alt="pic1"></a> 
-                                 
                   </div>
-                  <p>name</p>   
+                  <a class="animation_project" href="https://doritozbae.github.io/rsschool-cv/"  target="_blank">
+                     <h3 class="portfolio_text">Personal Web-page</h3>    
+                    </a>       
+                  <div class="description_">
+                     <p class="portfolio_description">HTML</p>
+                     <p class="portfolio_description">CSS</p>
+                     <p class="portfolio_description">JavaScript</p>
+                  </div> 
                </div>
          </div>
 
@@ -432,7 +394,7 @@
    <section class="mini_section" id="video">
       <h2>Video Presentation</h2>
       <div class="presentation_section">
-         
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/wUiTmFwra6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
    </section>
    
