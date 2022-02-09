@@ -373,11 +373,16 @@ footer{
    display: flex;
    flex-flow: column;
    padding-top: 45px;
+   /* list-style-type: lower-alpha; */
+}
+.skills-list-new li{
+   list-style-type:circle;
+   margin-left: 10px;
 }
 .skills_section_first, .skills_section_second{
    display: flex;
    flex-flow: row wrap;
-   justify-content: space-between;
+   /* justify-content: space-between; */
    padding-bottom: 30px;
 }
 .skills_list{
@@ -389,7 +394,13 @@ footer{
 .skills_padding{
    padding-bottom: 2px;
 }
+.skills_left{
+   width: 65%;
+}
 
+.margin-left{
+   padding-left: 20px;
+}
 
 
 /* --EDUCATION-------------------------------------------------------------------------- */
