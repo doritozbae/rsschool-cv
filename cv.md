@@ -4,7 +4,7 @@
 ## Contacts
 - **Telegram**: alliese
 - **E-mail**: doritosbae@mail.ru
-[LinkedIn]([https://t.me/alliese](https://www.linkedin.com/in/alice-korshakova-0b46791b8?trk=contact-info))
+[LinkedIn](https://www.linkedin.com/in/alice-korshakova-0b46791b8?trk=contact-info)
 
 ## About Me
 I am a project manager with experience in programming and design. I have analytical skills and strong attention to details with a creative approach to work. 
