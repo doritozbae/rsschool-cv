@@ -4,6 +4,7 @@
 ## Contacts
 - **Telegram**: alliese
 - **E-mail**: doritosbae@mail.ru
+
 [LinkedIn](https://www.linkedin.com/in/alice-korshakova-0b46791b8?trk=contact-info)
 
 ## About Me
@@ -28,7 +29,7 @@ Freelance - Minsk, Belarus *(Jan 2021 - Nov 2023)*
 
 
 ## Education
-**Information technology engineer**, bachelor 
+**Information technology engineer**, bachelor  
 [Belarusian State University of Informatics and Radioelectronics](https://www.bsuir.by/) - Minsk, Belarus *(2019-2023)*
 
 **13-week Digital Design Course**  
