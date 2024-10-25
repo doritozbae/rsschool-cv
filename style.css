@@ -19,7 +19,7 @@ a {
     padding: 0 20px;
 }
 
-.header{
+.header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,16 +43,12 @@ a {
 }
 
 .footer {
-    display: flex;
-    justify-content:space-between;
+    text-align: center;
+    align-items: center;
     width: 100%;
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 20px;
-}
-
-.footer ul{ 
-    justify-content:space-between;
 }
 
 section {
